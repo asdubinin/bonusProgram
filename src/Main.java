@@ -3,7 +3,7 @@ public class Main {
 
         int wallet = 100;
         int add = 1500;
-        int bonus = add/100;
+        int bonus = add / 100;
 
         if (add > 1000) {
             wallet = wallet + add + bonus;
@@ -11,7 +11,8 @@ public class Main {
             wallet = wallet + add;
         }
 
-        System.out.println("Баланс счета: " + wallet);
+        System.out.println("Начислено бонусов: " + bonus + " руб.");
+        System.out.println("Баланс счета: " + wallet + " руб.");
 
 
         // Объявляете переменные для входных данных и
